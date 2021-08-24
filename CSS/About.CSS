@@ -1,0 +1,98 @@
+body{
+    background-color:rgba(128, 128, 128, 0.164);
+     margin: 0px;
+     padding: 0px;
+ }
+    .left img {
+        width: 400px;
+  ;
+    }
+    .left {
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+    }
+
+   
+    .mid {
+        position: absolute;;
+        right: 34px;
+        top: 30px;
+        display: inline-block;
+        
+    }
+
+    .navbar {
+        display: inline-block;
+       
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color:red;
+        text-decoration: none;
+        padding: 34px 23px;
+
+    }
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color:black;
+       
+
+    }
+    .second {
+        border: 2px solid white;
+        margin-top: 10%;
+        margin-left: 3%;
+        margin-right:3%;
+        background-image: url(img/gehu-aerial-view.jpg);
+        height:2000px;
+        width: 1568px; 
+        background-repeat: no-repeat;
+    }
+    .third{
+        border: 2px solid white;
+        margin-top:450px;
+        margin-left: 50px;
+        padding-left: 10px;
+        background-color: white;
+        margin-right: 50px;
+    }
+   .third p{
+       font-size:25px;
+       padding-left: 10px;
+       padding-right: 10px;
+   }
+   .third img{
+    padding-left: 250px;
+}
+.copy{
+    display: inline-block; 
+    background-color: red;
+    height: 100px;
+}
+    
+.copy li {
+    display: inline-block;
+    font-size: 25px;
+    padding-right:157px;
+    padding-top: 20px;
+}
+.copy li a {
+    color:white;
+    text-decoration: none;
+    padding: 34px 23px;
+
+}
+.copy li a:hover,
+.copy li a.active {
+    text-decoration: underline;
+    color:black;
+   
+
+}

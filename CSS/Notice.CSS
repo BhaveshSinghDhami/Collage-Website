@@ -1,0 +1,63 @@
+body{
+    background-color:white;
+     margin: 0px;
+     padding: 0px;
+ }
+    .left img {
+        width: 400px;
+  ;
+    }
+    .left {
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+    }
+
+   
+    .mid {
+        position: absolute;;
+        right: 34px;
+        top: 30px;
+        display: inline-block;
+        
+    }
+
+    .navbar {
+        display: inline-block;
+       
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color:red;
+        text-decoration: none;
+        padding: 34px 23px;
+
+    }
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color:black;
+
+    }
+    
+    .hero{
+        width: 80%;
+        height: 300px;
+        position: relative;
+        margin:100px auto;
+    
+        
+    }
+    .hero a {
+        text-decoration: none;
+        border: 1px solid black;
+        background-color: red;
+        color: white;
+        font-size: 20px;
+
+    }
